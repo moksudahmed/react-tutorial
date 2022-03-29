@@ -19,6 +19,14 @@
     width: 390px;
 }
 .cardTitle{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.cardDesc{
     text-align: justify;
     margin-bottom: 5px;
+}
+.cardFooter{
+    text-align: center;
+    font-weight: bold;
 }

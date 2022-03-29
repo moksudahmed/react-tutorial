@@ -1,18 +1,6 @@
 import ReactDOM from 'react-dom';
-import './index.css'
-const title = 'To Do App';
-const desc ='Hello World';
-const date = new Date();
-const currentYear = date.getFullYear();
-
+import App from './App';
 ReactDOM.render(
-   <div>
-       <h1 className='headingStyle'>{title}</h1>
-       <div className='card'>
-           <h2 className='cardTitle'>{title}</h2>
-           <p>{desc}</p>       
-       <    p>{currentYear}</p>
-       </div>
-   </div>, 
+    <App />,
     document.getElementById('root')
 );
