@@ -6,6 +6,7 @@ import Data from './data.json';
 import List from './Components/List';
 import ReactBootstrap from './Components/React_Bootstrap/ReactBootstrap';
 import Counter from './Components/Counter';
+import Index from './Components/home/Index';
 
 const title = 'To Do App';
 
@@ -18,13 +19,14 @@ class App extends Component {
     render() { 
         return (
             <div>
-                <ReactBootstrap />
+                <Index />
+                {/* <ReactBootstrap />
                 <Welcome />
                 <Counter />
                 <h1 className='headingStyle'>{title}</h1>          
                 <p>{Data.map((item, index)=> <Card key={index} title={item.title} desc={item.desc}/>)}</p>
                 <p><Card2 title="Hello" desc="World"/></p>
-                <p><List /></p>                    
+                <p><List /></p>                     */}
             </div>
         );
     }
