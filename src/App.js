@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import Card from './Components/Card';
-import Card2 from './Components/Card2';
-import './index.css';
+//import Card from './Components/Card';
+//import Card2 from './Components/Card2';
+//import './index.css';
 import Data from './data.json';
 import List from './Components/List';
 import ReactBootstrap from './Components/React_Bootstrap/ReactBootstrap';
 import Counter from './Components/Counter';
 import Index from './Components/home/Index';
-
+import Alltodos from './Components/Todos/Alltodos'
 const title = 'To Do App';
 
 function Welcome(){
@@ -19,8 +19,10 @@ class App extends Component {
     render() { 
         return (
             <div>
+                <Alltodos />
+                {/*
                 <Index />
-                {/* <ReactBootstrap />
+                 <ReactBootstrap />
                 <Welcome />
                 <Counter />
                 <h1 className='headingStyle'>{title}</h1>          
