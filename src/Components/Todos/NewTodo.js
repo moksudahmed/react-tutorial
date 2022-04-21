@@ -10,7 +10,7 @@ export default function NewTodo(props){
         e.preventDefault(); 
         props.addTodo(todo);        
     }
-    return (    <div className='todoForm'>
+    return (<div className='todoForm'>
                     <form action=''>
                         <div>
                             <span>Title</span>

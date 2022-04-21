@@ -1,11 +1,11 @@
 import React, { Component, useState } from 'react';
 import Todo from './Todo';
-//import './todo.module.css';
+import './todo.module.css';
 
 
 const Todos = (props) =>{   
     const deleteTodos = (e) =>{
-        props.onDelete(e)       
+        props.onDelete(e);       
     }
     return (
         <div>

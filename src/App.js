@@ -6,8 +6,9 @@ import Data from './data.json';
 import List from './Components/List';
 import ReactBootstrap from './Components/React_Bootstrap/ReactBootstrap';
 import Counter from './Components/Counter';
-import Index from './Components/home/Index';
 import Alltodos from './Components/Todos/Alltodos'
+import Home from './Components/Student/Home';
+
 const title = 'To Do App';
 
 function Welcome(){
@@ -18,8 +19,9 @@ class App extends Component {
    
     render() { 
         return (
-            <div>
-                <Alltodos />
+            <div>                
+                <Home />
+               
                 {/*
                 <Index />
                  <ReactBootstrap />
