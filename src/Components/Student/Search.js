@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Student from "./Student";
 
 const Search = (props)=> {
     const [StudentID, setId] = useState(null);

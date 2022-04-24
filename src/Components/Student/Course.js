@@ -5,8 +5,8 @@ const Course = (props) =>{
    
     return(
         <div>
-            <h1>{props.course.batchName}</h1>
-            <p>{props.course.mod_name}</p>
+            <h1>{props.course.c_modulecode}</h1>
+            <p>{props.course.c_title} {props.course.c_title} {props.course.c_lettergrade}</p>
         </div>
     )
 };
